@@ -5,7 +5,7 @@
         <BuildPath>$(MSBuildStartupDirectory)/build</BuildPath>
         <SourcePath>$(MSBuildProjectDirectory)/src</SourcePath>
         <IncludePath>$(MSBuildProjectDirectory)/include</IncludePath>
-        <TargetObject>$(BuildPath)/stdlibcxx.o</TargetObject>
+        <TargetObject>$(BuildPath)/libstdcxx.o</TargetObject>
         <GXX>/usr/bin/g++</GXX>
         <LD>/usr/bin/ld</LD>
     </PropertyGroup>
