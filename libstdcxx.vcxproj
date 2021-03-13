@@ -4,6 +4,7 @@
     <PropertyGroup>
         <IncludePath>$(MSBuildProjectDirectory)/include</IncludePath>
         <SourcePath>$(MSBuildProjectDirectory)/src</SourcePath>
+        <ModulePath>$(MSBuildStartupDirectory)/module</ModulePath>
         <BuildPath>$(MSBuildStartupDirectory)/build/$(MSBuildProjectName)</BuildPath>
         <TargetObject>$(BuildPath)/$(MSBuildProjectName).o</TargetObject>
         <GXX>/usr/bin/g++</GXX>
