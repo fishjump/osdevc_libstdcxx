@@ -2,10 +2,10 @@
 
     <!-- Project -->
     <PropertyGroup>
-        <BuildPath>$(MSBuildStartupDirectory)/build</BuildPath>
-        <SourcePath>$(MSBuildProjectDirectory)/src</SourcePath>
         <IncludePath>$(MSBuildProjectDirectory)/include</IncludePath>
-        <TargetObject>$(BuildPath)/libstdcxx.o</TargetObject>
+        <SourcePath>$(MSBuildProjectDirectory)/src</SourcePath>
+        <BuildPath>$(MSBuildStartupDirectory)/build</BuildPath>
+        <TargetObject>$(BuildPath)/$(MSBuildProjectName)/$(MSBuildProjectName).o</TargetObject>
         <GXX>/usr/bin/g++</GXX>
         <LD>/usr/bin/ld</LD>
     </PropertyGroup>
