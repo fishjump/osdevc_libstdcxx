@@ -11,11 +11,13 @@
     </PropertyGroup>
 
     <!-- Includes -->
+    <!-- Add external include here -->
     <ItemGroup>
         <Include Include="$(IncludePath)" />
     </ItemGroup>
 
     <!-- Libs -->
+    <!-- Add external lib here -->
     <ItemGroup>
         <!-- <Lib Include="" /> -->
     </ItemGroup>
