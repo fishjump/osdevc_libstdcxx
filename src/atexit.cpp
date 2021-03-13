@@ -1,6 +1,6 @@
 #include <std/stdcxx.hpp>
 
-int atexit(void (*f)())
+extern "C" int atexit(void (*f)())
 {
     return 0;
 }
